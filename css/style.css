@@ -621,7 +621,7 @@ i {
 	display: flex;
 	height: 280px;
 	width: 200px;
-	background-color: #3e86d8;
+	background-color: white;
 	border-radius: 10px;
 	box-shadow: -1rem 0 3rem #000;
   /*   margin-left: -50px; */
@@ -761,4 +761,23 @@ form .form-hd2 {
 	padding-top: 50px;
 }
 
-/*BOUTON MONTER*/
+/*CARD*/
+.aspect-16to9 {
+	height: auto;
+	width: 100%;
+  }
+  
+  .p-16to9 {
+	position: relative;
+	padding-bottom: 56%;
+	overflow: hidden;
+  }
+  
+  .card-body-content {
+	position: absolute;
+	top: 1rem;
+	bottom: 1rem;
+	right: 1rem;
+	left: 1rem;
+	overflow: hidden;
+  }

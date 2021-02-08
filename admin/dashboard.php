@@ -133,6 +133,15 @@ $annee_selection = empty($_GET['annee']) ? $annee : (int)$_GET['annee'];
     <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
       <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
         <h1 class="h2">Dashboard</h1>
+        <div class="auto">
+          DATE : <?= date('Y-m-d'); ?>
+        </div>
+        <script>
+          setInterval('load_message()', 500);
+          function load_message() {
+            $("#auto").load("auto.php");
+          }
+        </script>
       </div>
         <h5>Upload d'image en ligne :</h5>
             <?php if(isset($_GET['error'])): ?>
@@ -153,7 +162,7 @@ $annee_selection = empty($_GET['annee']) ? $annee : (int)$_GET['annee'];
   </div>
 </div>
 
-
+<script src="https://ajax.googleapis.com/ajax/libs/d3js/6.5.0/d3.min.js"></script> 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
