@@ -58,97 +58,60 @@ require '../partials/header.php';
 
 
 	<!--CSS-->
-	<style>
-				.card {
-			display: flex;
-			height: 280px;
-			width: 200px;
-			background-color: white;
-			border-radius: 10px;
-			box-shadow: -1rem 0 3rem #000;
-		/*   margin-left: -50px; */
-			transition: 0.4s ease-out;
-			position: relative;
-			top: 60px;
-		    left: 60px;
+		<style>
+			.card-pres {
+				color: white;
+				padding-top: 100px;
+			}
 
-		}
+			.row {
+				align-items: center;
+				text-align: center;
+			}
+
+			.center {
+				text-align: justify;
+			}
+		
 		</style>
-	  <!--CSS-->
+	<!--CSS-->
 
-  
+<section class="card-pres">
 	<div class="container">
-  
-  <div class="jumbotron">
-    
-  </div>
-  
-  <div class="row js-slick-carousel">
-    
-      <div class="col">
-        <div class="card">
-		<a href="../public/plomberie.php"><img class="aspect-16to9 card-img-top" src="../images/pic02.jpg" alt="" /></a>
-          
-          <div class="card-body p-16to9">
-            
-            <div class="card-body-content">
-              <h5 class="card-title">Plomberie</h5>
-              <p class="card-text">
-                 Un service irréprochable
-              </p>
-            </div>
-            
-          </div>
-          
-        </div>
-      </div>
-
-    <div class="col">  
-      <div class="card">
-	  <a href="../public/realisation.php"><img class="aspect-16to9 card-img-top" src="../images/chauffagiste.jpg" alt="" /></a>
-          <div class="card-body p-16to9">
-            
-            <div class="card-body-content">
-              <h5 class="card-title">Nos réalisations</h5>
-              <p class="card-text">
-                  test
-              </p>
-            </div>
-            
-          </div>
-        </div>
+  <div class="row">
+    <div class="col-sm">
+	<i class="fas fa-water fa-3x"></i>
+      <h4>Plomberie</h4>
+	  <div class="center">
+	  <i class="fas fa-check-square"></i> installation<br>
+	  <i class="fas fa-check-square"></i> Entretien<br>
+	  <i class="fas fa-check-square"></i> Réparation
+	  </div>
     </div>
-
-    <div class="col">
-      <div class="card">
-	  <a href="../public/chauffage.php"><img class="aspect-16to9 card-img-top" src="../images/chauffagiste-min.jpg" alt="" /></a>
-        
-        <div class="card-body p-16to9">
-          
-          <div class="card-body-content">
-            <h5 class="card-title">Chauffage</h5>
-            <p class="card-text">
-                test
-            </p>
-          </div>
-          
-        </div>
-      </div>
+    <div class="col-sm">
+	<i class="fas fa-align-justify fa-3x"></i>
+      <h4>Nos réalisations</h4>
+	  <div class="center">
+	  <i class="fas fa-check-square"></i> Exemple de nos installations :<br>
+	  <i class="fas fa-check-square"></i> Plomberie<br>
+	  <i class="fas fa-check-square"></i> Chauffage
+	  </div>
     </div>
-
-   
-    
-   
-
-    
-    
-  </div> <!-- row -->
-  
-    
-  <div class="jumbotron mt-4">
+    <div class="col-sm">
+	<div class="icone">
+	   <i class="fab fa-hotjar fa-3x"></i>
+	</div>
+      <h4>chauffage</h4>
+	  <div class="center">
+	  <i class="fas fa-check-square"></i> Chaudière gaz toute marque<br>
+	  <i class="fas fa-check-square"></i> Installation de pompe à chaleur<br>
+	  <i class="fas fa-check-square"></i> Chaffage au sol etc
+	  </div>
+    </div>
   </div>
-  
-</div> <!-- container -->
+</div>
+</section>
+	
 
 
   </div>
