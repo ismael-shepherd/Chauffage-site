@@ -1,5 +1,5 @@
 <?php
-    function nav_item(string $lien, string $titre, string $LinkClass = ''): string 
+    function nav_item(string $lien, string $titre, string $LinkClass = ''): string
     {
       $classe = 'nav-item';
       if($_SERVER['SCRIPT_NAME'] === $lien) {

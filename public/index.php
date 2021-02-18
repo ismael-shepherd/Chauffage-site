@@ -69,7 +69,7 @@ require '../partials/header.php';
 				text-align: center;
 			}
 
-			.center {
+			.col-sm {
 				text-align: justify;
 			}
 		
@@ -80,7 +80,7 @@ require '../partials/header.php';
 	<div class="container">
   <div class="row">
     <div class="col-sm">
-	<i class="fas fa-water fa-3x"></i>
+	
       <h4>Plomberie</h4>
 	  <div class="center">
 	  <i class="fas fa-check-square"></i> installation<br>
@@ -89,7 +89,7 @@ require '../partials/header.php';
 	  </div>
     </div>
     <div class="col-sm">
-	<i class="fas fa-align-justify fa-3x"></i>
+	
       <h4>Nos réalisations</h4>
 	  <div class="center">
 	  <i class="fas fa-check-square"></i> Exemple de nos installations :<br>
@@ -99,7 +99,7 @@ require '../partials/header.php';
     </div>
     <div class="col-sm">
 	<div class="icone">
-	   <i class="fab fa-hotjar fa-3x"></i>
+	   
 	</div>
       <h4>chauffage</h4>
 	  <div class="center">
